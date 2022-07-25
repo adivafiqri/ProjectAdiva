@@ -48,7 +48,7 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.IndianRed;
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(253)))));
             this.menuStrip1.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 30);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -83,14 +83,14 @@
             // sandiCaesarToolStripMenuItem
             // 
             this.sandiCaesarToolStripMenuItem.Name = "sandiCaesarToolStripMenuItem";
-            this.sandiCaesarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.sandiCaesarToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.sandiCaesarToolStripMenuItem.Text = "Sandi Caesar";
             this.sandiCaesarToolStripMenuItem.Click += new System.EventHandler(this.sandiCaesarToolStripMenuItem_Click);
             // 
             // sandiVigenereToolStripMenuItem
             // 
             this.sandiVigenereToolStripMenuItem.Name = "sandiVigenereToolStripMenuItem";
-            this.sandiVigenereToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.sandiVigenereToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.sandiVigenereToolStripMenuItem.Text = "Sandi Vigenere";
             // 
             // kuisToolStripMenuItem
@@ -111,7 +111,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.IndianRed;
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(253)))));
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(467, 3);
             this.pictureBox3.Name = "pictureBox3";

@@ -65,6 +65,7 @@
             // encodeToolStripMenuItem
             // 
             this.encodeToolStripMenuItem.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.encodeToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.encodeToolStripMenuItem.Name = "encodeToolStripMenuItem";
             this.encodeToolStripMenuItem.Size = new System.Drawing.Size(83, 32);
             this.encodeToolStripMenuItem.Text = "Encode";
@@ -95,7 +96,7 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(253)))));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.encodeToolStripMenuItem,
             this.decodeToolStripMenuItem});
@@ -108,6 +109,7 @@
             // decodeToolStripMenuItem
             // 
             this.decodeToolStripMenuItem.Font = new System.Drawing.Font("Poppins", 12F);
+            this.decodeToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.decodeToolStripMenuItem.Name = "decodeToolStripMenuItem";
             this.decodeToolStripMenuItem.Size = new System.Drawing.Size(86, 32);
             this.decodeToolStripMenuItem.Text = "Decode";
@@ -220,7 +222,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(253)))));
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(996, 6);
             this.pictureBox3.Name = "pictureBox3";
